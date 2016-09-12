@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- --------------------------------------------------------------------------------  TYPICAL HEAD FROM BOOTSTRAP  -------------------------------------------------------------------------------- -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bienvenue chez Wildshoes</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <style type="text/css">
+    button, input, select, textarea {
+    font-family: inherit;
+    font-style: italic;
+    font-size: inherit;
+    line-height: inherit;
+    color: #582900;
+    font-weight: bold;
+}
+input
+					{
+					border: 0px;
+					}
+					
+					#console { height: 200px; border-radius: 5px; background: white; margin-top: 0px; margin-right: 215px; padding: 15px 15px; width: 70%; float: right; }
+    					#console pre { color: #fff; font-family: 'Monaco', courier, monospace; line-height: 1.5; overflow: hidden; }
+    					#console pre a { font-weight: bold; color: #fff; text-decoration: underline; }
+ 					#console .keyword { color: #ec77b4; }
+   				        #console .string { color: #ff8714; }
+    					#console .function { color: #96c9ff; }
+    					#console .variable { color: #ffd67d; }
+			
+    </style>
+  </head>
+
+<!-- ********** NOW CODING WITH GEDIT (UBUNTU/GNOME) SORRY FOR BAD INDENTATION, WORKING ON THE GOOD CONFIG FOR SOURCE EDITING, PROBABLY A MIX OF SUBLIME TEXT AND TERMINATOR ********** -->
+
+ <body onload="textticker()">
+
+<!-- --------------------------------------------------------------------------------  NAV  -------------------------------------------------------------------------------- -->
+
+
+	<nav  class="navbar navbar-default navbar-fixed-top">
+ 		 <div class="container">
+  			  <!-- LOGO	Brand and toggle get grouped for better mobile display -->
+  			  <div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       					 <span class="sr-only">Navigation</span>
+        				<span class="icon-bar"></span>
+       					 <span class="icon-bar"></span>
+       					 <span class="icon-bar"></span>
+      				</button>
+      				<a class="navbar-brand" href="#"><img src="images/logo.png" height="100%" alt="Wildshoes" class="pull-left"></a>
+    			</div>
+
+   			 <!-- ITEMS MENU	Collect the nav links, forms, and other content for toggling -->
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     		   <ul class="nav navbar-nav">
+       			 <!-- <li class="active"><a href="#">Wildshoes<span class="sr-only">(current)</span></a></li> -->
+       			 <li><a href="#process">Savoir-faire</a></li>
+       			 <li><a href="#products1">Chausse-pieds</a></li>
+        		 <li><a href="#products2">Tire-bottes</a></li>
+        		 <li><a href="#surmesure">Sur-mesure</a></li>
+
+      		   </ul>
+
+
+   	 </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- -------------------------------------------------------------------------------- VISUEL HOME -------------------------------------------------------------------------------- -->
+
+<!-- ----------------------------------------- -->
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>  <!-- box qui écrit du texte a la ligne-->
+
+
+<style type="text/css">          
+				<!-- 
+					 
+					input
+					{
+					border: 0px;
+					}
+					
+					#console { height: 200px; border-radius: 5px; margin-top: 0px; margin-right: 215px; padding: 15px 15px; width: 70%; float: right; }
+    					#console pre { color: #fff; font-family: 'Monaco', courier, monospace; line-height: 1.5; overflow: hidden; }
+    					#console pre a { font-weight: bold; color: #fff; text-decoration: underline; }
+ 					#console .keyword { color: #ec77b4; }
+   				        #console .string { color: #ff8714; }
+    					#console .function { color: #96c9ff; }
+    					#console .variable { color: #ffd67d; }
+				--> 
+			</style>
+
+</head>
+
+
+ 
+
+	<div class="container">
+		<div id="visuel-top" class="col-sm-12">
+		<img src="images/wildshoes-orleans.jpg" class="col-sm-12">
+		
+		
+		<p></br>
+			<a href="#" class="btn btn-primary" role="button">Découvrez nos produits</a> </p>
+		</div>
+	</div>
+	
+<!-- -------------------------------------------------------------------------------- SAVOIR-FAIRE -------------------------------------------------------------------------------- -->
+
+	<div id="process" class="container">
+		<br/><br/><h2>Nous sommes leaders depuis 72 ans</h2><br/><br/>
+	</div>
+	
+<!-- -------------------------------------------------------------------------------- PRODUITS 1/3 = CHAUSSE-PIEDS -------------------------------------------------------------------------------- -->
+
+	<div id="products1" class="container">
+		<div class="row">
+  			<div class="col-sm-12 col-md-6 col-lg-3">
+    				<div class="thumbnail">
+      					<img src="images/chausse_pied_bois.jpg" alt="...">
+      					<div class="caption">
+       			 <h3>Wild Bois</h3>
+        			<p>Ce produit est authentiquement fait main ;)</p>
+				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+       				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
+      					</div>
+    				</div>
+ 			 </div>
+
+  			<div class="col-sm-12 col-md-6 col-lg-3">
+    				<div class="thumbnail">
+      					<img src="images/chausse_pied_corne.jpg" alt="...">
+      					<div class="caption">
+       			 <h3>Wild Corne</h3>
+        			<p>Ce produit est authentiquement fait main ;)</p>
+<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+       				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
+      					</div>
+    				</div>
+ 			 </div>
+
+
+  			<div class="col-sm-12 col-md-6 col-lg-3">
+    				<div class="thumbnail">
+      					<img src="images/chausse_pied_metal.jpg" alt="...">
+      					<div class="caption">
+       			 <h3>Wild Métal</h3>
+        			<p>Ce produit est authentiquement fait main ;)</p>
+<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
+      					</div>
+    				</div>
+ 			 </div>
+
+
+  			<div class="col-sm-12 col-md-6 col-lg-3">
+    				<div class="thumbnail">
+      					<img src="images/chausse_pied_telescopique.jpg" alt="...">
+      					<div class="caption">
+       			 <h3>Wild Plus</h3>
+        			<p>Nouveau : télescopique</p>
+       				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
+      					</div>
+    				</div>
+ 			 </div>
+
+  			
+
+		</div
+
+		</div>
+
+	</div>
+
+<!-- -------------------------------------------------------------------------------- VISUEL SEPARATION -------------------------------------------------------------------------------- -->
+
+
+			<div id="layer1" class="container">
+				<div id="visuel-mid" class="col-sm-12" >
+					<img src="images/chaussure.jpg" class="col-sm-6">
+					<p><a href="#" class="btn btn-primary" role="button">Au service de vos chaussures</a></p
+				</div>
+			</div>
+			
+
+
+<!-- -------------------------------------------------------------------------------- PRODUITS 2/3 = TIRE-BOTTES -------------------------------------------------------------------------------- -->
+
+	<div id="products2" class="container">
+		<div class="row">
+  			<div class="col-sm-12 col-md-6 col-lg-4">
+    				<div class="thumbnail">
+      					<img src="images/tirebotte_bois.jpg" alt="...">
+      					<div class="caption">
+       			 <h3>Wild Bois</h3>
+        			<p>Ce produit est authentiquement fait main ;)</p>
+				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+       				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
+      					</div>
+    				</div>
+ 			 </div>
+
+  			<div class="col-sm-12 col-md-6 col-lg-4">
+    				<div class="thumbnail">
+      					<img src="images/tirebotte_metal.jpg" alt="...">
+      					<div class="caption">
+       			 <h3>Wild Corne</h3>
+        			<p>Ce produit est authentiquement fait main ;)</p>
+<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+       				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
+      					</div>
+    				</div>
+ 			 </div>
+
+
+  			<div class="col-sm-12 col-md-6 col-lg-4">
+    				<div class="thumbnail">
+      					<img src="images/grattoir.jpg" alt="...">
+      					<div class="caption">
+       			 <h3>Wild Métal</h3>
+        			<p>Ce produit est authentiquement fait main ;)</p>
+<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
+      					</div>
+    				</div>
+ 			 </div>
+
+  		
+
+			</div
+
+		</div>
+
+	</div>
+
+<!-- -------------------------------------------------------------------------------- VISUEL SEPARATION -------------------------------------------------------------------------------- -->
+
+
+			<div id"layer2" class="container">
+				<div id="visuel-mid" class="col-sm-12">
+					<img src="images/chaussure.jpg" class="col-sm-6">
+					<p><a href="#" class="btn btn-primary" role="button">Votre chausse-pieds sur-mesure</a> </p>
+				</div>
+			</div>
+
+
+
+
+<!-- --------------------------------------------------------------------------------  3/3 SUR-MESURE  -------------------------------------------------------------------------------- -->
+
+	<div class="container">
+		<div id="sur_mesure" class="col-sm-12">
+<!--		<img src="images/wildshoes-orleans.jpg" class="col-sm-12">	-->
+		<p><a href="#" class="btn btn-primary" role="button">Appelez-nous</a> </p>
+		</div>
+	</div>
+
+
+<!-- --------------------------------------------------------------------------------   LOCATION MAP   -------------------------------------------------------------------------------- -->
+
+
+
+
+<div class='bloc2'>		
+
+
+	<div id="console">
+    		<pre id="consoleText"></pre>
+	</div>
+
+
+<div class='bloc2'>		
+
+
+	
+ 
+
+
+						<!-- CONFIGURATION DU TEXTE QUI DEFILE LIGNE A LIGNE-->
+<script type="text/javascript">
+    var text = '<span class="keyword">Découvrez nos produits sur mesure</span> <span class="function">Et n\'hésitez pas à remplir</span><span style="color:red;"> le formulaire</span> {\n\t<span class="variable">$listen_to_me</span> = <span class="string">\'ci dessous.\'</span>;\n\t<span class="variable">$consequence</span> = <span class="function">Soyez le plus précis</span>(<span class="string">\'possible\'</span>);\n\t<span class="variable">dans votre</span> = <span class="string">demande.\'</span>;\n\t<span class="variable">$OpTix</span> = <span class="string">\'don\'t forgive\'</span>;\n\t<span class="variable">$OpTix_In_YouR_SeRveR</span> = <span class="function">\'punishment\'</span>;\n\t<span class="keyword">if</span>(<span class="variable">$HaCk</span> === <span class="keyword">true</span>) {\n\t\t<a href="https://fr.wiktionary.org/wiki/sous-merde"><span class="function" style="font-size: 50px; color: green;">this is just the beginning</span>();</a>\n\t}\n}';
+ 
+    var currentChar = 1;
+    var htmltag = false;
+    var cache = '';
+ 
+ 
+    function type()
+    {
+        var str = text.substr(0, currentChar);
+        var last = str.substr(str.length -1, str.length);
+        if(last != '<' && last != '>' & last != '/') {
+            $("#consoleText").html(str);
+        }
+        currentChar++;
+        if(currentChar <= text.length)
+        {
+            if(last == '<') {
+                htmltag = true;
+            } else if(last == '>') {
+                htmltag = false;
+            }
+            if(htmltag) {
+                setTimeout(type, 1);
+            } else {
+                setTimeout(type, 20);
+            }
+        }
+    }
+ 
+    $(document).ready(function() {
+        $("#consoleText").html("");
+        setTimeout(type, 2000);
+    });
+ 
+</script>
+
+
+
+
+<!-- ------------------------------------------ -->
+
+
+ 	<div class="container">
+ 	
+ 	
+ 	<!-- -------------- FORMULAIRE DEVIS  --------------------------------------------- -->
+ 	
+ 	
+ 	
+ 	
+ 	<div style="margin: auto;" class="jumbotron">
+ 	
+ 	
+ 	
+<script>
+function show_alert() {
+   alert("Ceci est un formulaire fictif ;-)");
+}
+</script>
+
+
+		<form action="" method="" style="text-align: center;">   
+			<table style="width: 60%; margin-left: 250px;">
+
+				<tr>
+					<td style="margin:0 5px;width:80px;"><label>Nom : </label></td>
+					<td colspan="2" style="margin:0 5px;"><input type="text" placeholder="entrez votre nom" name="nom" style="width:100%;" class="" value=""></td>
+				</tr>
+
+				<tr>		
+					<td colspan="2" style="margin:0 5px;"><label>Prénom : </label></td>
+					<td style="margin:0 5px;">
+						<input type="text" placeholder="entrez votre prenom" name="prenom" style="width:100%;" class="" value=""></td>
+				</tr>
+
+       				 <tr>		
+					<td colspan="2" style="margin:0 5px;">
+							<label>Numéro : </label>
+					</td>
+					<td style="margin:0 5px;">
+							<input type="text" placeholder="entrez votre numero" name="numero" style="width:100%;" class="" value="">
+				</td>
+				</tr>
+
+				<tr>
+					<td style="margin:0 5px;width:80px;"><label>Votre mail : </label></td>
+					<td colspan="3"><input type="text" placeholder="entrez votre email" name="email" style="width:100%;" class="" value=""></td>
+				</tr>
+				<tr><td style="margin:0 5px;width:80px;"><label>Type de chausse-pieds : </label></td>
+					<td colspan="3"><textarea style="width: 100%; height: 100px; resize:none;" placeholder="entrez votre type de chausse-pied, bois, métaln corne etc... votre demande doit être précise." name="message" ></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="3" style=""><input type="submit" name="envoyer" style="" class="" value="Envoyer" onclick="show_alert();"></td>
+				</tr>
+			</table>
+		</form>
+		
+</div>
+<!-- -------------------------------------------------FORMULAIRE DEVIS FIN --------- -->
+		<br/>
+		<div id="map" class="col-sm-6">
+		<iframe width="55%" height="350" frameborder="0" style="border: 1px solid black" src="http://www.openstreetmap.org/export/embed.html?bbox=1.8911880254745483%2C47.8920535963068%2C1.8982690572738647%2C47.89525482791994&layer=mapnik&marker=47.8936542368513%2C1.8947285413742065" marginwidth="0" marginheight="0" scrolling="no">
+		</div>
+		
+	</div>
+
+		
+
+
+<!-- --------------------------------------------------------------------------------   FOOTER   -------------------------------------------------------------------------------- -->
+
+
+ 	<div id="footer">
+		<h4>Contact - Mentions légales</h4>
+	</div>
+	
+<!-- ------------------------------------------------------------   *  JQ / JS CALLS (FROM TYPICAL BOOTSTRAP CODE) *  ------------------------------------------------------------ -->
+	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
