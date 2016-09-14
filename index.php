@@ -24,10 +24,18 @@
     
     
    			 <style type="text/css">
+   			 
+   			 	
    			 	body {
    			 	cursor: url("ch.png"), pointer;
    			 	}
    			 
+   			 
+   			 	.fond {
+   			 	background-image: url('images/wildshoes-orleans.jpg');
+   			 	background-size: cover;
+   			 	opacity: 0.8;
+   			 	}
    				 button, input, select, textarea {
     				 	font-family: inherit;
     					font-style: italic;
@@ -303,9 +311,7 @@
 				  border-radius: 0px;
 				}
 
-
-			
-
+				
 
 
 
@@ -445,11 +451,13 @@
 
  
 
-	<div id="visuel-top" class="container">
- 	   		
-		<img   src="images/wildshoes-orleans.jpg" class="col-md-12 col-sm-12 col-xs-12">
-	 
-	</div>
+	<div id="visuel-top" class="container"> 
+ 	   		<div class="jumbotron fond">
+ 	   		<h1 style="color: white; font-weight: bold; text-align: center;">Nous sommes leaders depuis 72 ans !</h1>
+ 	   		<p style="text-align: center;"><a style="background-color: white; color: #582900; font-weight: bold;" class="btn btn-primary btn-lg" href="#" role="button">Voir nos produits</a></p>
+		<!-- <img   src="images/wildshoes-orleans.jpg" class="col-md-12 col-sm-12 col-xs-12"> -->
+	 		</div>
+	</div> 
 
 
 	
@@ -474,13 +482,13 @@
 
 	<div id="products1" class="container">
 		<div class="row">
-  			<div class="col-sm-6 col-md-12 col-lg-3">
+  			<div class="col-sm-12 col-md-6 col-lg-3 ">
     				<div class="thumbnail">
       					<img src="images/chausse_pied_bois.jpg" alt="...">
       					<div class="caption">
        			 <h3>Wild Bois</h3>
         			<p>Ce produit est authentiquement fait main ;)</p>
-				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+
        				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
       					</div>
     				</div>
@@ -492,7 +500,7 @@
       					<div class="caption">
        			 <h3>Wild Corne</h3>
         			<p>Ce produit est authentiquement fait main ;)</p>
-<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+
        				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
       					</div>
     				</div>
@@ -505,7 +513,6 @@
       					<div class="caption">
        			 <h3>Wild Métal</h3>
         			<p>Ce produit est authentiquement fait main ;)</p>
-<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
 				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
       					</div>
     				</div>
@@ -517,7 +524,7 @@
       					<img src="images/chausse_pied_telescopique.jpg" alt="...">
       					<div class="caption">
        			 <h3>Wild Plus</h3>
-        			<p>Nouveau : télescopique</p>
+        			<p>Ce produit est authentiquement fait main ;)</p>
        				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
       					</div>
     				</div>
@@ -560,7 +567,6 @@
       					<div class="caption">
        			 <h3>Wild Bois</h3>
         			<p>Ce produit est authentiquement fait main ;)</p>
-				<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
        				<p><a href="#" rel="popup_name"  class="btn btn-primary poplight" role="button">Plus d'infos</a> </p>
   
       					</div>
@@ -573,7 +579,7 @@
       					<div class="caption">
        			 <h3>Wild Corne</h3>
         			<p>Ce produit est authentiquement fait main ;)</p>
-<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
+
        				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
       					</div>
     				</div>
@@ -586,7 +592,6 @@
       					<div class="caption">
        			 <h3>Wild Métal</h3>
         			<p>Ce produit est authentiquement fait main ;)</p>
-<p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. </p>
 				<p><a href="#" class="btn btn-primary" role="button">Plus d'infos</a> </p>
       					</div>
     				</div>
